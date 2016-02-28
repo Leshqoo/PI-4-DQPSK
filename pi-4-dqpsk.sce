@@ -20,7 +20,7 @@ end
         error("Symbol duration must be more than 0.")
 end
 
-//Parity check.
+//Check parity.
 r = length(b)/2
 re = ceil(r)
 val = re -r
